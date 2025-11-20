@@ -1,5 +1,10 @@
 # Apple Notes Explorer (seek-an)
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
+
+---
+
 **Apple Notes Explorer** は、Mac標準の「メモアプリ (Apple Notes)」のデータをローカルで探索・閲覧するためのWeb UIツールです。
 Next.js と SQLite を使用して、ローカルにある `NoteStore.sqlite` データベースから直接ノート情報を取得し、高速に一覧表示・検索を行うことができます。
 
