@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local database (IMPORTANT: Do not commit personal data)
+NoteStore.sqlite
+NoteStore.sqlite*
+copy_db.js
+seed_mock_db.js
