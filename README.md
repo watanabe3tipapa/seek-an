@@ -55,5 +55,7 @@ Next.js と SQLite を使用して、ローカルにある `NoteStore.sqlite` �
 
 ## ライセンス
 
-本ソフトウェアは [MIT License](LICENSE) の下で公開されています。
+本ソフトウェアは [MIT License](LICENSE) の下で公開しています。
+
+---
 
