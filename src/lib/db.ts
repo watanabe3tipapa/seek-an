@@ -45,7 +45,7 @@ export function getAllNotes(search?: string): Note[] {
     WHERE ZNOTE IS NOT NULL
   `;
 
-    const params: any[] = [];
+    const params: (string | number)[] = [];
 
     if (search) {
         query += ` AND (ZTITLE1 LIKE ? OR ZSNIPPET LIKE ?)`;

@@ -2,15 +2,9 @@
 
 import { useState } from 'react';
 import useSWR from 'swr';
-import { Search, FileText, Folder } from 'lucide-react';
+import { Search, Folder } from 'lucide-react';
 
-interface Note {
-    id: string;
-    title: string;
-    snippet: string;
-    modificationDate: number;
-    folderId: number;
-}
+import { Note } from '@/lib/db';
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 

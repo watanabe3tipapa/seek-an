@@ -4,14 +4,7 @@ import { useState } from 'react';
 import NoteList from '@/components/NoteList';
 import NoteView from '@/components/NoteView';
 
-interface Note {
-  id: string;
-  title: string;
-  snippet: string;
-  modificationDate: number;
-  creationDate: number;
-  folderId: number;
-}
+import { Note } from '@/lib/db';
 
 export default function Home() {
   const [selectedNote, setSelectedNote] = useState<Note | null>(null);
